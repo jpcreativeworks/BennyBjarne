@@ -68,6 +68,59 @@ header a {
   text-decoration: none;
 }
 
+section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), 
+  url(../imgs/footer-bg-close.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.footer-info {
+  margin: 10px;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 12px;
+  padding: 0 auto;
+
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.icon-link {
+  padding-right: 7px;
+}
 
 @media (max-width: 866px) {
   header {
